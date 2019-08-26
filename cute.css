@@ -1,5 +1,37 @@
 <!--cute dog_api-->
- ul {
+ #cont{	position:relative;
+		padding:40%;
+		height:400px;
+}
+
+
+  #jumb{position:relative;
+		left:11%;
+		width:900px;
+	}
+ 
+ 
+ 
+ #btn_dogs{ 
+		position:relative;
+		left:35%;
+	 }
+	 
+	 
+	 
+  #get_pictures
+ {
+	 display:none;
+	 position:relative;
+	 left:15%;
+	 width:500px;
+	 height:200px;
+	 border:0px solid grey;
+ } 
+ 
+ 
+ 
+#main {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,17 +39,27 @@
   background-color: #f1f1f1;
 }
 
-li span {
+
+
+span {
   display: block;
   color: #000;
   padding: 8px 0px 8px 80px;
   text-decoration: none;
-  
-  
 }
 
+
+
 /* Change the link color on hover */
-li span:hover {
+span:hover {
   background-color: #555;
   color: white;
+}
+
+
+
+
+#load{
+	position:relative;
+	left:33%;
 }
