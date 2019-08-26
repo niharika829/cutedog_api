@@ -1,18 +1,35 @@
-<!--cute dog_api-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   <link rel="stylesheet" type="text/css" href="cute.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" type="text/css" href="cute.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 
+  
 </head>
+
 <body>
-  <ul>
-  <li><span onClick="reload()" >Cute Dogs</span></li>
-</ul>
-  <script src="cute.js"></script>
+
+			<div id="main">
+						<!--navigation bar-->
+						<span onClick="reload()" >Cute Dogs</span>
+			</div>
+
+			<div id="cont" class="container"><br /> <br /> 	<br /><br />	
+			
+						<div id="jumb" class="jumbotron">
+						
+									<div id="get_pictures"><img id="myimg" src=" "  height="200px" width="500px" ><br /></div>
+									
+									<div id="load"><b>Please wait while the Image Loads</b></div>	
+															
+									<button type="button" id="btn_dogs" class="btn btn-primary" onClick="dog()">Get Me more Cute Dogs</button>
+									
+						</div>     
+			</div>
+			
+<script src="cute.js"></script>
 </body>
 </html>
